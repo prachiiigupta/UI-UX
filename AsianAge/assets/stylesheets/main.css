@@ -1,0 +1,698 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Helper Classes */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Global Settings */
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body{
+    background-image:url("http://www.golfian.com/wp-content/uploads/2016/07/World-Map-Wallpaper-Design-With-Black-Background.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+#topbar {
+    padding: 12px 44px;
+    /* background-color: #222;  */
+}
+#topbar a {
+    font-size: 15px;
+    color: #fff;
+}
+#topbar ul li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+#topbar .pipe {
+    color: #fff;
+}
+#topbar .e_paper {
+    margin: 0px 13px;
+}
+
+#mainpage {
+    background-color: #fff;
+    margin: 0px 40px 40px 40px;
+    
+}
+
+#main-header {
+    margin: 0px 40px;
+    padding: 11px 0px 0px 0px;
+    position: relative;
+    /* background-color: #fff; */
+}
+#main-header .logo {
+   padding-left:37%;
+}
+#main-header .datetime {
+    width: 33%;
+    position: absolute;
+    right: 8px;
+    bottom: 2px;
+}
+#main-header .datetime p {
+    font-size: 14px;
+    color: #656565;
+    margin: 0px;
+}
+
+
+#main-navigation {
+    background-color: #222;
+     padding-left:5% ;
+     margin: 8px 12px 0px 12px;
+}
+#main-navigation ul li {
+    display: inline-block;
+    position: relative;
+}
+#main-navigation ul li a {
+    display: block;
+    padding: 20px 12px;
+    color: #fff;
+}
+#main-navigation ul:first-child li:first-child{
+    background-color: #CF0000;
+}
+#main-navigation ul li a:hover {
+    background-color: #CF0000;
+    display: block;
+    position: relative;
+
+}
+#main-navigation ul li:hover .moredropdown {
+    
+    display: inline-block;    
+}
+#main-navigation ul li .moredropdown{
+    display: none; 
+    position:absolute;
+    background-color: #222;
+    left: -155%;
+    right:0%;
+}
+#main-navigation ul li .moredropdown li  {
+    display: block;
+}
+
+
+
+
+#content{
+    
+    margin:0px 10px;
+    
+}
+#pageleft{
+    margin-top:20px ;
+    width: 75%;
+  
+
+}
+#pageright{
+   
+    background-color: #fff;
+  margin-top: 18px; 
+  width:24%;
+  }
+#pageleft h2:first-child{
+    color: #fff;
+    display: inline;
+    font-weight: bolder;
+    background-color: #CF0000;
+    font-size: 68%;
+    padding: 12px;
+    
+}
+
+hr{
+    border-style:solid;
+    border-color: #CF0000;
+    border-width: 2px;
+   
+}
+
+#topnews{
+    margin-top:15px;
+    background-color: #202021;
+    
+}
+
+#mainstory{
+    
+    background-color: #0A0A0A; 
+ 
+    width:66%;
+    margin: 14px 10px 20px  ;
+
+}
+#mainstory a img{
+
+    width: 95%; 
+    color: #fff;
+    margin: 4px  0px 10px 16px ;  
+}
+#mainstory a h2{
+    color:white;
+    font-weight: bolder;
+    padding: 0px 30px;
+    
+}
+#mainstory a h2:hover{
+ color: #CF0000
+
+}
+
+#recentnews{
+    width:31%;
+}
+#recentnews li{
+    margin-top: 2px;
+}
+#recentnews li a img{
+    width: 115px; 
+    height: 70px;
+    padding:8px 1px 18px 0px; 
+    
+    /* padding-top: 18px; */
+}
+#recentnews li a h3{
+    width:45%;
+    font-size: 15px;
+    font-weight: bolder;
+    color:#7D8080;
+    padding: 10px 20px 0px 14px;
+
+}
+#recentnews li a h3:hover{
+ color: #fff;
+
+}
+#recentnews ul li .seperator{
+    
+    border-width: 0.5px;
+    border-color: #7D8080;
+    opacity: 0.1;
+    margin-top: 1px;
+    margin-right:0%;
+}
+
+
+#mostpopular  h2{
+    margin-bottom: 0px;
+    font-weight: bold;
+    color:#4D4D4D;
+}
+#mostpopular li a span{
+    font-weight: bolder;
+    color: #CF0000;
+    font-size: 50px;
+    width: 16%;
+    padding-top: 5px;
+
+}
+#mostpopular li a p{
+    font-size:18px;
+    font-weight: bold;
+    color: #2F2F2F;
+    width: 78%;
+    padding-top:2px;
+    margin-top:3px; 
+    
+}
+#latestnews{
+    margin-top: 40px;
+}
+#latestnews ul li{
+    width:45%;
+    padding-left:2px;
+    margin-right: 40px;
+    margin-bottom: 12px;
+    
+}
+#latestnews ul li img{
+    width: 240px;
+    height:120px;
+    
+    
+    margin-right:0px;
+    padding-right:0px;
+
+ 
+
+
+}
+#latestnews ul li h1{
+    width: 40%;
+
+    color: #2F2F2F;
+    font-size: 20px;
+    font-weight: bolder;
+
+ margin-left:0px;
+ padding-left:1px;
+
+ padding-top: 0px;
+  
+}
+#latestnews ul li a h1:hover{
+    color: #CF0000;
+}
+
+
+#newsmakerstitle h1,#worldtitle h1,#entertainment h1{
+     margin:0px;
+
+    font-weight: bold;
+    color: #333333;
+    
+
+    
+    font-size: 23px;
+}
+#newsmakerstitle h2,#worldtitle h2,#entertainment h5{
+    color: #fff;
+    display: inline;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 8px 22px;
+    /* margin-bottom: 0px; */
+    margin:0px;
+    background-color: #CF0000;
+ 
+}
+#newsmakerstitle h2 span,#worldtitle h2 span {
+    padding-left:2px;
+}
+#newsmakers hr,#world hr{
+    border-style:solid;
+    border-color: #CF0000;
+    border-width: 2px;
+    margin:0px;
+    
+}
+#newsmakerscontent ul li ,#worldcontent ul li{
+    width:24%;
+    margin-top:16px;
+    margin-left:9px;
+
+}
+#newsmakerscontent a img,#worldcontent a img,#entertainment a img{
+    width:98%;
+}
+#newsmakerscontent  a h2,#worldcontent a h2,#entertainment ul li a h2{
+    color:black;
+    font-weight: bold;
+    padding-top:8px;
+    font-size: 20px;
+  
+}
+#newsmakerscontent a p,#worldcontent a p{
+    color:#9A9A9A;
+}
+
+#pagesectionleft{
+    width: 67%;
+}
+#pagesectionright{
+    width:31%;
+    margin-left: 10px;
+    /* margin-top: 4px; */
+}
+
+#world{
+ width:100%;
+}
+#worldcontent ul li{
+    width:31%;
+    margin-top:16px;
+    margin-left:9px;
+}
+
+
+#editorspick h2{
+      margin-bottom: 0px;
+      font-weight: bold;
+      color:#4D4D4D;
+      margin-top: 40px;
+  }
+  #editorspick li a img{
+     width: 101px;
+      height: 65px;
+      padding-top: 0px;
+  
+  }
+#editorspick li {
+    margin-top: 0px;
+   }
+
+#editorspick li a p{
+      font-size:15px;
+      font-weight: bolder;
+      color: #2F2F2F;
+      width: 59%;
+      padding:0px 0px 0px 6px;
+      margin-top:1px; 
+      
+  }
+
+#editorspick h1,#columns h1,#mostpopular h1{
+    color: #fff;
+    display: inline;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 8px 12px;
+    /* margin-bottom: 0px; */
+    margin:0px;
+    background-color: #CF0000;
+    
+}
+
+
+#socialstream{
+    background-color: #fff;
+      margin-top: 14px; 
+     border-style: solid;
+      border-width: 0.5px;
+     border-color: #E5E5E5; 
+}
+#socialtitle .leftside h2{
+  color: #2F2F2F;
+ font-weight: lighter;
+  font-size:16px;
+  padding: 10px 20px 0px 8px;  
+   margin-bottom: 0px;
+
+}
+#socialtitle h4{
+    color: #2F2F2F;
+    font-size:10px;
+    font-weight: lighter;
+    padding: 10px 20px 12px 8px;
+    margin-top: 0px;
+    line-height: 0%;
+}
+#socialtitle hr{
+    border-style: solid;
+    border-width: 0.5px;
+    width:100%;
+    border-color:#E5E5E5;
+
+}
+#socialtitle .rightside {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+#socialtitle .rightside a{
+    font-size: 30px;
+    color:#E5E5E5;
+}
+#socialtitle .rightside a:hover{
+      color:#2F2F2F;
+}
+#socialbody{
+    overflow-y: scroll;
+    height: 600px;
+}
+#socialcontent{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #FCFCFC;
+ }
+
+#socialcontent h2{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    color: #585858;
+}
+#socialcontent p{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #585858;
+}
+#contentfooter{
+    margin-top: 70px;
+    background-color: #E5E5E5;
+    border-bottom-style: solid;
+    border-bottom-color: #1BCBEC;
+    
+}
+#contentfooter h4,#contentfooter h4 a{
+    font-size: 14px;
+    margin: 0px;
+    padding: 14px 12px 14px 12px;
+    font-weight: lighter;
+    color: black;
+}
+#contentfooter h4 a:hover{
+ color: #1BCBEC;
+}
+#contentfooter h4 span{
+    padding-left: 50px;
+    padding-right: 8px;
+    font-size: 16px;
+    color: #2F2F2F;
+}
+#contentfooter h4 img{
+    padding-left: 10px;
+    padding-right: 6px;
+    height: 16px;
+    width:16px;
+    
+}
+
+
+#columns  h2{
+    margin-bottom: 0px;
+    font-weight: bold;
+    color:#4D4D4D;
+    margin-top: 18px;
+}
+#columns a{
+    margin-top: 0px;
+}
+#columnimage{
+    margin-top: 12px;
+ width:23%;
+}
+#columnimage img{
+    border-radius: 50%;
+    width:100%;
+    
+}
+#columnheading{
+    width: 60%;
+    margin: 16px 20px 10px 20px;
+
+}
+#columnheading h3{
+    color: red;
+   font-size: 15px;
+   font-weight: bolder;
+ padding-bottom: 0%;
+ padding-right: 20px;
+ margin-bottom: 0px;
+
+}
+#columnheading h4{
+    color:black;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-top: 2px;
+    margin-top: 0%;
+    padding-right: 30px;
+    margin-bottom: 0px;
+
+}
+#columns p{
+    font-weight: 400;
+    color: black;
+    font-size: 13px;
+    padding-right: 10px;
+    letter-spacing: 0.1px;
+    line-height: 18.5714px;
+    margin-top: 0px;
+    padding-top: 0px;
+ font-family: sans-serif;
+ margin-bottom: 0px;
+ padding-bottom: 0px;
+
+}
+
+
+#hereandnow h2,#counterpoint h2,#horoscope h2{
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: black;
+    margin-top: 60px;
+}
+#hereandnow a img,#counterpoint a img{
+    width:100%;
+    height:auto;
+}
+
+
+#horoscope .horohead{
+    
+    margin-top:0px;
+}
+#horoscope .horohead img{
+    width: 60px;
+    height:auto;
+
+}
+#horoscope .horohead p{
+ width: 70%;
+    font-size: 17px;
+    font-weight: 400;
+     line-height: 24.2857px;
+ color: rgb(51,51,51);
+ margin-left: 25px;
+ margin-top: 0px;
+
+}
+.horobody a{
+    display:inline-block;
+    background-color: #CEC9C9;
+    color:white;
+    font-size: 15px;
+    line-height: 21.4286px;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: #CEC9C9;
+    border-radius: 5px 5px 0px 0px;
+    padding:4px 12px;
+    margin-right: 7px;
+
+
+
+}
+.horobody a:hover{
+    color: black;
+}
+.zodiacsymbols{
+    width:250px;
+    height: auto;
+    margin:0px;
+    border-style: solid;
+ border-color:#CEC9C9;
+ /* border-color: #0A0A0A; */
+ border-width: 2px;
+ border-top-width: 4px;
+}
+
+#entertainment{
+    width: 100%;
+
+}
+#entertainment ul li{
+    margin-top: 4px;
+}
+
+.technology{
+    margin-top: 45px;
+}
+
+
+#footer{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#footer hr{
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.5px;
+    
+
+}
+#footerlinks{
+    margin-top:10px;
+    margin-bottom: 40px;
+
+}
+#footerlinks ul {
+  
+    text-align: center;
+
+}
+#footerlinks li{
+    padding:0px 13px;
+ border-right-style: solid;
+ border-color: #0A0A0A;
+ border-width: 1px;
+    display: inline;
+}
+#footerlinks ul :last-child{
+    border-style: none;
+}
+#footerlinks li a,#footercontent p{
+   
+ color: #202021;
+ font-size: 14px;
+ font-weight: 400;
+ line-height:20px;
+
+
+}
+#footercontent {
+    /* margin-bottom: 40px; */
+    margin-top: 40px;
+}
+#footercontent p{
+   
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 0px;
+    
+}
+#footerlinks a:hover{
+    color:rgb(195, 0, 0);
+
+
+}
